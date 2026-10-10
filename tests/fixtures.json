@@ -1,0 +1,2508 @@
+{
+"cachedFromNicksFile": {
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 0.6875,
+"multiplier": 0.3,
+"die": 0.75,
+"tons": 18.89864331
+},
+"recalculatedWithHisFormulas": [
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 0.1875,
+"multiplier": 0.12,
+"die": 0.1875,
+"tons": 1.05675322885127
+},
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 0.3125,
+"multiplier": 0.12,
+"die": 0.3125,
+"tons": 1.76125538141878
+},
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 0.4375,
+"multiplier": 0.12,
+"die": 0.4375,
+"tons": 2.46575753398629
+},
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 0.5,
+"multiplier": 0.12,
+"die": 0.5,
+"tons": 2.81800861027004
+},
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 0.6875,
+"multiplier": 0.12,
+"die": 0.6875,
+"tons": 3.87476183912131
+},
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 0.8125,
+"multiplier": 0.12,
+"die": 0.8125,
+"tons": 4.57926399168882
+},
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 1,
+"multiplier": 0.12,
+"die": 1,
+"tons": 5.63601722054009
+},
+{
+"material": "Steel",
+"thickness": 0.0598,
+"punch": 1.125,
+"multiplier": 0.12,
+"die": 1.125,
+"tons": 6.3405193731076
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 0.1875,
+"multiplier": 0.12,
+"die": 0.1875,
+"tons": 1.32535940073319
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 0.3125,
+"multiplier": 0.12,
+"die": 0.3125,
+"tons": 2.20893233455532
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 0.4375,
+"multiplier": 0.12,
+"die": 0.4375,
+"tons": 3.09250526837745
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 0.5,
+"multiplier": 0.12,
+"die": 0.5,
+"tons": 3.53429173528852
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 0.6875,
+"multiplier": 0.12,
+"die": 0.6875,
+"tons": 4.85965113602171
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 0.8125,
+"multiplier": 0.12,
+"die": 0.8125,
+"tons": 5.74322406984384
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 1,
+"multiplier": 0.12,
+"die": 1,
+"tons": 7.06858347057703
+},
+{
+"material": "Steel",
+"thickness": 0.075,
+"punch": 1.125,
+"multiplier": 0.12,
+"die": 1.125,
+"tons": 7.95215640439916
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 0.1875,
+"multiplier": 0.12,
+"die": 0.1875,
+"tons": 1.76714586764426
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 0.3125,
+"multiplier": 0.12,
+"die": 0.3125,
+"tons": 2.94524311274043
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 0.4375,
+"multiplier": 0.12,
+"die": 0.4375,
+"tons": 4.1233403578366
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 0.5,
+"multiplier": 0.12,
+"die": 0.5,
+"tons": 4.71238898038469
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 0.6875,
+"multiplier": 0.12,
+"die": 0.6875,
+"tons": 6.47953484802895
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 0.8125,
+"multiplier": 0.12,
+"die": 0.8125,
+"tons": 7.65763209312512
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 1,
+"multiplier": 0.12,
+"die": 1,
+"tons": 9.42477796076938
+},
+{
+"material": "Steel",
+"thickness": 0.1,
+"punch": 1.125,
+"multiplier": 0.12,
+"die": 1.125,
+"tons": 10.6028752058656
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 0.1875,
+"multiplier": 0.16,
+"die": 0.21875,
+"tons": 1.92618899573224
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 0.3125,
+"multiplier": 0.16,
+"die": 0.34375,
+"tons": 3.21031499288707
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 0.4375,
+"multiplier": 0.16,
+"die": 0.46875,
+"tons": 4.4944409900419
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 0.5,
+"multiplier": 0.16,
+"die": 0.53125,
+"tons": 5.13650398861931
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 0.6875,
+"multiplier": 0.16,
+"die": 0.71875,
+"tons": 7.06269298435155
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 0.8125,
+"multiplier": 0.16,
+"die": 0.84375,
+"tons": 8.34681898150638
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 1,
+"multiplier": 0.16,
+"die": 1.03125,
+"tons": 10.2730079772386
+},
+{
+"material": "Steel",
+"thickness": 0.109,
+"punch": 1.125,
+"multiplier": 0.16,
+"die": 1.15625,
+"tons": 11.5571339743935
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 0.1875,
+"multiplier": 0.16,
+"die": 0.21875,
+"tons": 2.20893233455532
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 0.3125,
+"multiplier": 0.16,
+"die": 0.34375,
+"tons": 3.68155389092554
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 0.4375,
+"multiplier": 0.16,
+"die": 0.46875,
+"tons": 5.15417544729576
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 0.5,
+"multiplier": 0.16,
+"die": 0.53125,
+"tons": 5.89048622548086
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 0.6875,
+"multiplier": 0.16,
+"die": 0.71875,
+"tons": 8.09941856003619
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 0.8125,
+"multiplier": 0.16,
+"die": 0.84375,
+"tons": 9.5720401164064
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 1,
+"multiplier": 0.16,
+"die": 1.03125,
+"tons": 11.7809724509617
+},
+{
+"material": "Steel",
+"thickness": 0.125,
+"punch": 1.125,
+"multiplier": 0.16,
+"die": 1.15625,
+"tons": 13.2535940073319
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 0.1875,
+"multiplier": 0.16,
+"die": 0.21875,
+"tons": 3.31339850183299
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 0.3125,
+"multiplier": 0.16,
+"die": 0.34375,
+"tons": 5.52233083638831
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 0.4375,
+"multiplier": 0.16,
+"die": 0.46875,
+"tons": 7.73126317094363
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 0.5,
+"multiplier": 0.16,
+"die": 0.53125,
+"tons": 8.83572933822129
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 0.6875,
+"multiplier": 0.16,
+"die": 0.71875,
+"tons": 12.1491278400543
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 0.8125,
+"multiplier": 0.16,
+"die": 0.84375,
+"tons": 14.3580601746096
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 1,
+"multiplier": 0.16,
+"die": 1.03125,
+"tons": 17.6714586764426
+},
+{
+"material": "Steel",
+"thickness": 0.1875,
+"punch": 1.125,
+"multiplier": 0.16,
+"die": 1.15625,
+"tons": 19.8803910109979
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 0.1875,
+"multiplier": 0.2,
+"die": 0.25,
+"tons": 4.41786466911065
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 0.3125,
+"multiplier": 0.2,
+"die": 0.375,
+"tons": 7.36310778185108
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 0.4375,
+"multiplier": 0.2,
+"die": 0.5,
+"tons": 10.3083508945915
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 0.5,
+"multiplier": 0.2,
+"die": 0.5625,
+"tons": 11.7809724509617
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 0.6875,
+"multiplier": 0.2,
+"die": 0.75,
+"tons": 16.1988371200724
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 0.8125,
+"multiplier": 0.2,
+"die": 0.875,
+"tons": 19.1440802328128
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 1,
+"multiplier": 0.2,
+"die": 1.0625,
+"tons": 23.5619449019235
+},
+{
+"material": "Steel",
+"thickness": 0.25,
+"punch": 1.125,
+"multiplier": 0.2,
+"die": 1.1875,
+"tons": 26.5071880146639
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 0.1875,
+"multiplier": 0.2,
+"die": 0.25,
+"tons": 5.52233083638831
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 0.3125,
+"multiplier": 0.2,
+"die": 0.375,
+"tons": 9.20388472731385
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 0.4375,
+"multiplier": 0.2,
+"die": 0.5,
+"tons": 12.8854386182394
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 0.5,
+"multiplier": 0.2,
+"die": 0.5625,
+"tons": 14.7262155637022
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 0.6875,
+"multiplier": 0.2,
+"die": 0.75,
+"tons": 20.2485464000905
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 0.8125,
+"multiplier": 0.2,
+"die": 0.875,
+"tons": 23.930100291016
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 1,
+"multiplier": 0.2,
+"die": 1.0625,
+"tons": 29.4524311274043
+},
+{
+"material": "Steel",
+"thickness": 0.3125,
+"punch": 1.125,
+"multiplier": 0.2,
+"die": 1.1875,
+"tons": 33.1339850183298
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 0.1875,
+"multiplier": 0.2,
+"die": 0.25,
+"tons": 6.62679700366597
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 0.3125,
+"multiplier": 0.2,
+"die": 0.375,
+"tons": 11.0446616727766
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 0.4375,
+"multiplier": 0.2,
+"die": 0.5,
+"tons": 15.4625263418873
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 0.5,
+"multiplier": 0.2,
+"die": 0.5625,
+"tons": 17.6714586764426
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 0.6875,
+"multiplier": 0.2,
+"die": 0.75,
+"tons": 24.2982556801086
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 0.8125,
+"multiplier": 0.2,
+"die": 0.875,
+"tons": 28.7161203492192
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 1,
+"multiplier": 0.2,
+"die": 1.0625,
+"tons": 35.3429173528852
+},
+{
+"material": "Steel",
+"thickness": 0.375,
+"punch": 1.125,
+"multiplier": 0.2,
+"die": 1.1875,
+"tons": 39.7607820219958
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 0.1875,
+"multiplier": 0.24,
+"die": 0.3125,
+"tons": 8.83572933822129
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 0.3125,
+"multiplier": 0.24,
+"die": 0.4375,
+"tons": 14.7262155637022
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 0.4375,
+"multiplier": 0.24,
+"die": 0.5625,
+"tons": 20.616701789183
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 0.5,
+"multiplier": 0.24,
+"die": 0.625,
+"tons": 23.5619449019235
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 0.6875,
+"multiplier": 0.24,
+"die": 0.8125,
+"tons": 32.3976742401447
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 0.8125,
+"multiplier": 0.24,
+"die": 0.9375,
+"tons": 38.2881604656256
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 1,
+"multiplier": 0.24,
+"die": 1.125,
+"tons": 47.1238898038469
+},
+{
+"material": "Steel",
+"thickness": 0.5,
+"punch": 1.125,
+"multiplier": 0.24,
+"die": 1.25,
+"tons": 53.0143760293278
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 0.1875,
+"multiplier": 0.24,
+"die": 0.34375,
+"tons": 11.0446616727766
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 0.3125,
+"multiplier": 0.24,
+"die": 0.46875,
+"tons": 18.4077694546277
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 0.4375,
+"multiplier": 0.24,
+"die": 0.59375,
+"tons": 25.7708772364788
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 0.5,
+"multiplier": 0.24,
+"die": 0.65625,
+"tons": 29.4524311274043
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 0.6875,
+"multiplier": 0.24,
+"die": 0.84375,
+"tons": 40.4970928001809
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 0.8125,
+"multiplier": 0.24,
+"die": 0.96875,
+"tons": 47.860200582032
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 1,
+"multiplier": 0.24,
+"die": 1.15625,
+"tons": 58.9048622548086
+},
+{
+"material": "Steel",
+"thickness": 0.625,
+"punch": 1.125,
+"multiplier": 0.24,
+"die": 1.28125,
+"tons": 66.2679700366597
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 0.1875,
+"multiplier": 0.26,
+"die": 0.375,
+"tons": 13.2535940073319
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 0.3125,
+"multiplier": 0.26,
+"die": 0.5,
+"tons": 22.0893233455532
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 0.4375,
+"multiplier": 0.26,
+"die": 0.625,
+"tons": 30.9250526837745
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 0.5,
+"multiplier": 0.26,
+"die": 0.6875,
+"tons": 35.3429173528852
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 0.6875,
+"multiplier": 0.26,
+"die": 0.875,
+"tons": 48.5965113602171
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 0.8125,
+"multiplier": 0.26,
+"die": 1,
+"tons": 57.4322406984384
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 1,
+"multiplier": 0.26,
+"die": 1.1875,
+"tons": 70.6858347057704
+},
+{
+"material": "Steel",
+"thickness": 0.75,
+"punch": 1.125,
+"multiplier": 0.26,
+"die": 1.3125,
+"tons": 79.5215640439916
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 0.1875,
+"multiplier": 0.26,
+"die": 0.4375,
+"tons": 17.6714586764426
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 0.3125,
+"multiplier": 0.26,
+"die": 0.5625,
+"tons": 29.4524311274043
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 0.4375,
+"multiplier": 0.26,
+"die": 0.6875,
+"tons": 41.233403578366
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 0.5,
+"multiplier": 0.26,
+"die": 0.75,
+"tons": 47.1238898038469
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 0.6875,
+"multiplier": 0.26,
+"die": 0.9375,
+"tons": 64.7953484802895
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 0.8125,
+"multiplier": 0.26,
+"die": 1.0625,
+"tons": 76.5763209312512
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 1,
+"multiplier": 0.26,
+"die": 1.25,
+"tons": 94.2477796076938
+},
+{
+"material": "Steel",
+"thickness": 1,
+"punch": 1.125,
+"multiplier": 0.26,
+"die": 1.375,
+"tons": 106.028752058656
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 0.1875,
+"multiplier": 0.2,
+"die": 0.1875,
+"tons": 1.23287876699314
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 0.3125,
+"multiplier": 0.2,
+"die": 0.3125,
+"tons": 2.05479794498857
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 0.4375,
+"multiplier": 0.2,
+"die": 0.4375,
+"tons": 2.876717122984
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 0.5,
+"multiplier": 0.2,
+"die": 0.5,
+"tons": 3.28767671198172
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 0.6875,
+"multiplier": 0.2,
+"die": 0.6875,
+"tons": 4.52055547897486
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 0.8125,
+"multiplier": 0.2,
+"die": 0.8125,
+"tons": 5.34247465697029
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 1,
+"multiplier": 0.2,
+"die": 1,
+"tons": 6.57535342396344
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.0598,
+"punch": 1.125,
+"multiplier": 0.2,
+"die": 1.125,
+"tons": 7.39727260195887
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 0.1875,
+"multiplier": 0.2,
+"die": 0.1875,
+"tons": 1.54625263418873
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 0.3125,
+"multiplier": 0.2,
+"die": 0.3125,
+"tons": 2.57708772364788
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 0.4375,
+"multiplier": 0.2,
+"die": 0.4375,
+"tons": 3.60792281310703
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 0.5,
+"multiplier": 0.2,
+"die": 0.5,
+"tons": 4.1233403578366
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 0.6875,
+"multiplier": 0.2,
+"die": 0.6875,
+"tons": 5.66959299202533
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 0.8125,
+"multiplier": 0.2,
+"die": 0.8125,
+"tons": 6.70042808148448
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 1,
+"multiplier": 0.2,
+"die": 1,
+"tons": 8.24668071567321
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.075,
+"punch": 1.125,
+"multiplier": 0.2,
+"die": 1.125,
+"tons": 9.27751580513236
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 0.1875,
+"multiplier": 0.2,
+"die": 0.21875,
+"tons": 2.0616701789183
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 0.3125,
+"multiplier": 0.2,
+"die": 0.34375,
+"tons": 3.43611696486384
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 0.4375,
+"multiplier": 0.2,
+"die": 0.46875,
+"tons": 4.81056375080937
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 0.5,
+"multiplier": 0.2,
+"die": 0.53125,
+"tons": 5.49778714378214
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 0.6875,
+"multiplier": 0.2,
+"die": 0.71875,
+"tons": 7.55945732270044
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 0.8125,
+"multiplier": 0.2,
+"die": 0.84375,
+"tons": 8.93390410864597
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 1,
+"multiplier": 0.2,
+"die": 1.03125,
+"tons": 10.9955742875643
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1,
+"punch": 1.125,
+"multiplier": 0.2,
+"die": 1.15625,
+"tons": 12.3700210735098
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 0.1875,
+"multiplier": 0.25,
+"die": 0.21875,
+"tons": 2.24722049502095
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 0.3125,
+"multiplier": 0.25,
+"die": 0.34375,
+"tons": 3.74536749170158
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 0.4375,
+"multiplier": 0.25,
+"die": 0.46875,
+"tons": 5.24351448838221
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 0.5,
+"multiplier": 0.25,
+"die": 0.53125,
+"tons": 5.99258798672253
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 0.6875,
+"multiplier": 0.25,
+"die": 0.71875,
+"tons": 8.23980848174348
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 0.8125,
+"multiplier": 0.25,
+"die": 0.84375,
+"tons": 9.73795547842411
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 1,
+"multiplier": 0.25,
+"die": 1.03125,
+"tons": 11.9851759734451
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.109,
+"punch": 1.125,
+"multiplier": 0.25,
+"die": 1.15625,
+"tons": 13.4833229701257
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 0.1875,
+"multiplier": 0.25,
+"die": 0.21875,
+"tons": 2.57708772364788
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 0.3125,
+"multiplier": 0.25,
+"die": 0.34375,
+"tons": 4.2951462060798
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 0.4375,
+"multiplier": 0.25,
+"die": 0.46875,
+"tons": 6.01320468851171
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 0.5,
+"multiplier": 0.25,
+"die": 0.53125,
+"tons": 6.87223392972767
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 0.6875,
+"multiplier": 0.25,
+"die": 0.71875,
+"tons": 9.44932165337555
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 0.8125,
+"multiplier": 0.25,
+"die": 0.84375,
+"tons": 11.1673801358075
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 1,
+"multiplier": 0.25,
+"die": 1.03125,
+"tons": 13.7444678594553
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.125,
+"punch": 1.125,
+"multiplier": 0.25,
+"die": 1.15625,
+"tons": 15.4625263418873
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 0.1875,
+"multiplier": 0.25,
+"die": 0.25,
+"tons": 3.86563158547182
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 0.3125,
+"multiplier": 0.25,
+"die": 0.375,
+"tons": 6.44271930911969
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 0.4375,
+"multiplier": 0.25,
+"die": 0.5,
+"tons": 9.01980703276757
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 0.5,
+"multiplier": 0.25,
+"die": 0.5625,
+"tons": 10.3083508945915
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 0.6875,
+"multiplier": 0.25,
+"die": 0.75,
+"tons": 14.1739824800633
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 0.8125,
+"multiplier": 0.25,
+"die": 0.875,
+"tons": 16.7510702037112
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 1,
+"multiplier": 0.25,
+"die": 1.0625,
+"tons": 20.616701789183
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.1875,
+"punch": 1.125,
+"multiplier": 0.25,
+"die": 1.1875,
+"tons": 23.1937895128309
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 0.1875,
+"multiplier": 0.3,
+"die": 0.25,
+"tons": 5.15417544729576
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 0.3125,
+"multiplier": 0.3,
+"die": 0.375,
+"tons": 8.59029241215959
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 0.4375,
+"multiplier": 0.3,
+"die": 0.5,
+"tons": 12.0264093770234
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 0.5,
+"multiplier": 0.3,
+"die": 0.5625,
+"tons": 13.7444678594553
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 0.6875,
+"multiplier": 0.3,
+"die": 0.75,
+"tons": 18.8986433067511
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 0.8125,
+"multiplier": 0.3,
+"die": 0.875,
+"tons": 22.3347602716149
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 1,
+"multiplier": 0.3,
+"die": 1.0625,
+"tons": 27.4889357189107
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.25,
+"punch": 1.125,
+"multiplier": 0.3,
+"die": 1.1875,
+"tons": 30.9250526837745
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 0.1875,
+"multiplier": 0.3,
+"die": 0.28125,
+"tons": 6.44271930911969
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 0.3125,
+"multiplier": 0.3,
+"die": 0.40625,
+"tons": 10.7378655151995
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 0.4375,
+"multiplier": 0.3,
+"die": 0.53125,
+"tons": 15.0330117212793
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 0.5,
+"multiplier": 0.3,
+"die": 0.59375,
+"tons": 17.1805848243192
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 0.6875,
+"multiplier": 0.3,
+"die": 0.78125,
+"tons": 23.6233041334389
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 0.8125,
+"multiplier": 0.3,
+"die": 0.90625,
+"tons": 27.9184503395187
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 1,
+"multiplier": 0.3,
+"die": 1.09375,
+"tons": 34.3611696486384
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.3125,
+"punch": 1.125,
+"multiplier": 0.3,
+"die": 1.21875,
+"tons": 38.6563158547182
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 0.1875,
+"multiplier": 0.3,
+"die": 0.3125,
+"tons": 7.73126317094363
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 0.3125,
+"multiplier": 0.3,
+"die": 0.4375,
+"tons": 12.8854386182394
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 0.4375,
+"multiplier": 0.3,
+"die": 0.5625,
+"tons": 18.0396140655351
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 0.5,
+"multiplier": 0.3,
+"die": 0.625,
+"tons": 20.616701789183
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 0.6875,
+"multiplier": 0.3,
+"die": 0.8125,
+"tons": 28.3479649601266
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 0.8125,
+"multiplier": 0.3,
+"die": 0.9375,
+"tons": 33.5021404074224
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 1,
+"multiplier": 0.3,
+"die": 1.125,
+"tons": 41.233403578366
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.375,
+"punch": 1.125,
+"multiplier": 0.3,
+"die": 1.25,
+"tons": 46.3875790256618
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.375,
+"tons": 10.3083508945915
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.5,
+"tons": 17.1805848243192
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.625,
+"tons": 24.0528187540469
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.6875,
+"tons": 27.4889357189107
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 0.875,
+"tons": 37.7972866135022
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1,
+"tons": 44.6695205432299
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.1875,
+"tons": 54.9778714378214
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.5,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.3125,
+"tons": 61.8501053675491
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.40625,
+"tons": 12.8854386182394
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.53125,
+"tons": 21.475731030399
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.65625,
+"tons": 30.0660234425586
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.71875,
+"tons": 34.3611696486384
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 0.90625,
+"tons": 47.2466082668777
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1.03125,
+"tons": 55.8369006790374
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.21875,
+"tons": 68.7223392972767
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.625,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.34375,
+"tons": 77.3126317094363
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.4375,
+"tons": 15.4625263418873
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.5625,
+"tons": 25.7708772364788
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.6875,
+"tons": 36.0792281310703
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.75,
+"tons": 41.233403578366
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 0.9375,
+"tons": 56.6959299202533
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1.0625,
+"tons": 67.0042808148448
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.25,
+"tons": 82.4668071567321
+},
+{
+"material": "Stainless Steel",
+"thickness": 0.75,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.375,
+"tons": 92.7751580513236
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.53125,
+"tons": 20.616701789183
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.65625,
+"tons": 34.3611696486384
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.78125,
+"tons": 48.1056375080937
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.84375,
+"tons": 54.9778714378214
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 1.03125,
+"tons": 75.5945732270044
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1.15625,
+"tons": 89.3390410864597
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.34375,
+"tons": 109.955742875643
+},
+{
+"material": "Stainless Steel",
+"thickness": 1,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.46875,
+"tons": 123.700210735098
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 0.1875,
+"multiplier": 0.08,
+"die": 0.1875,
+"tons": 0.616439383496572
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 0.3125,
+"multiplier": 0.08,
+"die": 0.3125,
+"tons": 1.02739897249429
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 0.4375,
+"multiplier": 0.08,
+"die": 0.4375,
+"tons": 1.438358561492
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 0.5,
+"multiplier": 0.08,
+"die": 0.5,
+"tons": 1.64383835599086
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 0.6875,
+"multiplier": 0.08,
+"die": 0.6875,
+"tons": 2.26027773948743
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 0.8125,
+"multiplier": 0.08,
+"die": 0.8125,
+"tons": 2.67123732848515
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 1,
+"multiplier": 0.08,
+"die": 1,
+"tons": 3.28767671198172
+},
+{
+"material": "Aluminum",
+"thickness": 0.0598,
+"punch": 1.125,
+"multiplier": 0.08,
+"die": 1.125,
+"tons": 3.69863630097943
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 0.1875,
+"multiplier": 0.08,
+"die": 0.1875,
+"tons": 0.773126317094363
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 0.3125,
+"multiplier": 0.08,
+"die": 0.3125,
+"tons": 1.28854386182394
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 0.4375,
+"multiplier": 0.08,
+"die": 0.4375,
+"tons": 1.80396140655351
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 0.5,
+"multiplier": 0.08,
+"die": 0.5,
+"tons": 2.0616701789183
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 0.6875,
+"multiplier": 0.08,
+"die": 0.6875,
+"tons": 2.83479649601266
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 0.8125,
+"multiplier": 0.08,
+"die": 0.8125,
+"tons": 3.35021404074224
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 1,
+"multiplier": 0.08,
+"die": 1,
+"tons": 4.1233403578366
+},
+{
+"material": "Aluminum",
+"thickness": 0.075,
+"punch": 1.125,
+"multiplier": 0.08,
+"die": 1.125,
+"tons": 4.63875790256618
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 0.1875,
+"multiplier": 0.08,
+"die": 0.1875,
+"tons": 1.03083508945915
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 0.3125,
+"multiplier": 0.08,
+"die": 0.3125,
+"tons": 1.71805848243192
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 0.4375,
+"multiplier": 0.08,
+"die": 0.4375,
+"tons": 2.40528187540469
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 0.5,
+"multiplier": 0.08,
+"die": 0.5,
+"tons": 2.74889357189107
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 0.6875,
+"multiplier": 0.08,
+"die": 0.6875,
+"tons": 3.77972866135022
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 0.8125,
+"multiplier": 0.08,
+"die": 0.8125,
+"tons": 4.46695205432299
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 1,
+"multiplier": 0.08,
+"die": 1,
+"tons": 5.49778714378214
+},
+{
+"material": "Aluminum",
+"thickness": 0.1,
+"punch": 1.125,
+"multiplier": 0.08,
+"die": 1.125,
+"tons": 6.18501053675491
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 0.1875,
+"multiplier": 0.25,
+"die": 0.21875,
+"tons": 1.12361024751047
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 0.3125,
+"multiplier": 0.25,
+"die": 0.34375,
+"tons": 1.87268374585079
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 0.4375,
+"multiplier": 0.25,
+"die": 0.46875,
+"tons": 2.62175724419111
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 0.5,
+"multiplier": 0.25,
+"die": 0.53125,
+"tons": 2.99629399336127
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 0.6875,
+"multiplier": 0.25,
+"die": 0.71875,
+"tons": 4.11990424087174
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 0.8125,
+"multiplier": 0.25,
+"die": 0.84375,
+"tons": 4.86897773921206
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 1,
+"multiplier": 0.25,
+"die": 1.03125,
+"tons": 5.99258798672253
+},
+{
+"material": "Aluminum",
+"thickness": 0.109,
+"punch": 1.125,
+"multiplier": 0.25,
+"die": 1.15625,
+"tons": 6.74166148506285
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 0.1875,
+"multiplier": 0.25,
+"die": 0.21875,
+"tons": 1.28854386182394
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 0.3125,
+"multiplier": 0.25,
+"die": 0.34375,
+"tons": 2.1475731030399
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 0.4375,
+"multiplier": 0.25,
+"die": 0.46875,
+"tons": 3.00660234425586
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 0.5,
+"multiplier": 0.25,
+"die": 0.53125,
+"tons": 3.43611696486384
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 0.6875,
+"multiplier": 0.25,
+"die": 0.71875,
+"tons": 4.72466082668777
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 0.8125,
+"multiplier": 0.25,
+"die": 0.84375,
+"tons": 5.58369006790373
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 1,
+"multiplier": 0.25,
+"die": 1.03125,
+"tons": 6.87223392972767
+},
+{
+"material": "Aluminum",
+"thickness": 0.125,
+"punch": 1.125,
+"multiplier": 0.25,
+"die": 1.15625,
+"tons": 7.73126317094363
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 0.1875,
+"multiplier": 0.25,
+"die": 0.25,
+"tons": 1.93281579273591
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 0.3125,
+"multiplier": 0.25,
+"die": 0.375,
+"tons": 3.22135965455985
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 0.4375,
+"multiplier": 0.25,
+"die": 0.5,
+"tons": 4.50990351638379
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 0.5,
+"multiplier": 0.25,
+"die": 0.5625,
+"tons": 5.15417544729576
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 0.6875,
+"multiplier": 0.25,
+"die": 0.75,
+"tons": 7.08699124003166
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 0.8125,
+"multiplier": 0.25,
+"die": 0.875,
+"tons": 8.3755351018556
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 1,
+"multiplier": 0.25,
+"die": 1.0625,
+"tons": 10.3083508945915
+},
+{
+"material": "Aluminum",
+"thickness": 0.1875,
+"punch": 1.125,
+"multiplier": 0.25,
+"die": 1.1875,
+"tons": 11.5968947564154
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 0.1875,
+"multiplier": 0.12,
+"die": 0.21875,
+"tons": 2.57708772364788
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 0.3125,
+"multiplier": 0.12,
+"die": 0.34375,
+"tons": 4.2951462060798
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 0.4375,
+"multiplier": 0.12,
+"die": 0.46875,
+"tons": 6.01320468851171
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 0.5,
+"multiplier": 0.12,
+"die": 0.53125,
+"tons": 6.87223392972767
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 0.6875,
+"multiplier": 0.12,
+"die": 0.71875,
+"tons": 9.44932165337555
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 0.8125,
+"multiplier": 0.12,
+"die": 0.84375,
+"tons": 11.1673801358075
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 1,
+"multiplier": 0.12,
+"die": 1.03125,
+"tons": 13.7444678594553
+},
+{
+"material": "Aluminum",
+"thickness": 0.25,
+"punch": 1.125,
+"multiplier": 0.12,
+"die": 1.15625,
+"tons": 15.4625263418873
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 0.1875,
+"multiplier": 0.12,
+"die": 0.21875,
+"tons": 3.22135965455985
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 0.3125,
+"multiplier": 0.12,
+"die": 0.34375,
+"tons": 5.36893275759974
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 0.4375,
+"multiplier": 0.12,
+"die": 0.46875,
+"tons": 7.51650586063964
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 0.5,
+"multiplier": 0.12,
+"die": 0.53125,
+"tons": 8.59029241215959
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 0.6875,
+"multiplier": 0.12,
+"die": 0.71875,
+"tons": 11.8116520667194
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 0.8125,
+"multiplier": 0.12,
+"die": 0.84375,
+"tons": 13.9592251697593
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 1,
+"multiplier": 0.12,
+"die": 1.03125,
+"tons": 17.1805848243192
+},
+{
+"material": "Aluminum",
+"thickness": 0.3125,
+"punch": 1.125,
+"multiplier": 0.12,
+"die": 1.15625,
+"tons": 19.3281579273591
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 0.1875,
+"multiplier": 0.12,
+"die": 0.21875,
+"tons": 3.86563158547182
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 0.3125,
+"multiplier": 0.12,
+"die": 0.34375,
+"tons": 6.44271930911969
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 0.4375,
+"multiplier": 0.12,
+"die": 0.46875,
+"tons": 9.01980703276757
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 0.5,
+"multiplier": 0.12,
+"die": 0.53125,
+"tons": 10.3083508945915
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 0.6875,
+"multiplier": 0.12,
+"die": 0.71875,
+"tons": 14.1739824800633
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 0.8125,
+"multiplier": 0.12,
+"die": 0.84375,
+"tons": 16.7510702037112
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 1,
+"multiplier": 0.12,
+"die": 1.03125,
+"tons": 20.616701789183
+},
+{
+"material": "Aluminum",
+"thickness": 0.375,
+"punch": 1.125,
+"multiplier": 0.12,
+"die": 1.15625,
+"tons": 23.1937895128309
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.375,
+"tons": 5.15417544729576
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.5,
+"tons": 8.59029241215959
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.625,
+"tons": 12.0264093770234
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.6875,
+"tons": 13.7444678594553
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 0.875,
+"tons": 18.8986433067511
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1,
+"tons": 22.3347602716149
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.1875,
+"tons": 27.4889357189107
+},
+{
+"material": "Aluminum",
+"thickness": 0.5,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.3125,
+"tons": 30.9250526837745
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.40625,
+"tons": 6.44271930911969
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.53125,
+"tons": 10.7378655151995
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.65625,
+"tons": 15.0330117212793
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.71875,
+"tons": 17.1805848243192
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 0.90625,
+"tons": 23.6233041334389
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1.03125,
+"tons": 27.9184503395187
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.21875,
+"tons": 34.3611696486384
+},
+{
+"material": "Aluminum",
+"thickness": 0.625,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.34375,
+"tons": 38.6563158547182
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.4375,
+"tons": 7.73126317094363
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.5625,
+"tons": 12.8854386182394
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.6875,
+"tons": 18.0396140655351
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.75,
+"tons": 20.616701789183
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 0.9375,
+"tons": 28.3479649601266
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1.0625,
+"tons": 33.5021404074224
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.25,
+"tons": 41.233403578366
+},
+{
+"material": "Aluminum",
+"thickness": 0.75,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.375,
+"tons": 46.3875790256618
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 0.1875,
+"multiplier": 0.35,
+"die": 0.53125,
+"tons": 10.3083508945915
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 0.3125,
+"multiplier": 0.35,
+"die": 0.65625,
+"tons": 17.1805848243192
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 0.4375,
+"multiplier": 0.35,
+"die": 0.78125,
+"tons": 24.0528187540469
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 0.5,
+"multiplier": 0.35,
+"die": 0.84375,
+"tons": 27.4889357189107
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 0.6875,
+"multiplier": 0.35,
+"die": 1.03125,
+"tons": 37.7972866135022
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 0.8125,
+"multiplier": 0.35,
+"die": 1.15625,
+"tons": 44.6695205432299
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 1,
+"multiplier": 0.35,
+"die": 1.34375,
+"tons": 54.9778714378214
+},
+{
+"material": "Aluminum",
+"thickness": 1,
+"punch": 1.125,
+"multiplier": 0.35,
+"die": 1.46875,
+"tons": 61.8501053675491
+}
+]
+}
