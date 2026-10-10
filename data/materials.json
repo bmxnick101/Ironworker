@@ -1,0 +1,132 @@
+{
+ "source": "Sheet1 formulas O3 (Multiplier) and Q3 (Tonnage); material list from data validation on L3",
+ "units": {
+  "shearStrength": "psi",
+  "thickness": "in",
+  "tons": "US short tons (2000 lb)"
+ },
+ "materials": [
+  {
+   "id": "steel",
+   "name": "Steel",
+   "shearPsi": 60000,
+   "note": "Default/else branch in Q3 and O3 (any material that is not Stainless Steel or Aluminum)"
+  },
+  {
+   "id": "stainless",
+   "name": "Stainless Steel",
+   "shearPsi": 70000
+  },
+  {
+   "id": "aluminum",
+   "name": "Aluminum",
+   "shearPsi": 35000
+  }
+ ],
+ "clearance": {
+  "description": "Total die clearance as a fraction of material thickness. Die = MROUND(thickness*multiplier + punch, 1/32). Use the first row where thickness >= minThk. 'sheet' holds Nick's original O3 values.",
+  "roundTo": 0.03125,
+  "steps": [
+   {
+    "minThk": 0.75,
+    "steel": 0.26,
+    "stainless": 0.35,
+    "aluminum": 0.25,
+    "sheet": {
+     "steel": 0.26,
+     "stainless": 0.35,
+     "aluminum": 0.35
+    }
+   },
+   {
+    "minThk": 0.5,
+    "steel": 0.24,
+    "stainless": 0.35,
+    "aluminum": 0.25,
+    "sheet": {
+     "steel": 0.24,
+     "stainless": 0.35,
+     "aluminum": 0.35
+    }
+   },
+   {
+    "minThk": 0.25,
+    "steel": 0.2,
+    "stainless": 0.3,
+    "aluminum": 0.25,
+    "sheet": {
+     "steel": 0.2,
+     "stainless": 0.3,
+     "aluminum": 0.12
+    }
+   },
+   {
+    "minThk": 0.109,
+    "steel": 0.16,
+    "stainless": 0.25,
+    "aluminum": 0.2,
+    "sheet": {
+     "steel": 0.16,
+     "stainless": 0.25,
+     "aluminum": 0.25
+    }
+   },
+   {
+    "minThk": 0,
+    "steel": 0.12,
+    "stainless": 0.2,
+    "aluminum": 0.15,
+    "sheet": {
+     "steel": 0.12,
+     "stainless": 0.2,
+     "aluminum": 0.08
+    }
+   }
+  ],
+  "flags": [],
+  "changes": [
+   {
+    "material": "aluminum",
+    "from": "Nick's sheet O3: 8% / 25% / 12% / 35% / 35% (<0.109, 0.109+, 0.25+, 0.5+, 0.75+)",
+    "to": "15% / 20% / 25% / 25% / 25%",
+    "why": "Nick confirmed the 12% at 0.25-0.499\" was a typo. All aluminum steps now use Mate's aluminum piercing chart mapped onto Nick's thickness steps: 15% under 0.098\", 20% for 0.098-0.197\", 25% over 0.197\" (Mate's top tier, so it also covers 0.5\"+).",
+    "approvedBy": "Nick (typo confirmed 2026-10-02)"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Mate Precision Technologies, Technical Solutions Guide, Die Clearance Chart (total clearance, % of thickness)",
+    "url": "https://www.mate.com/wp-content/uploads/2021/03/LIT00682_TechSolutionsGuide_RevE_LR.pdf",
+    "summary": "Piercing: Aluminum 15% (<0.098\"), 20% (0.098-0.197\"), 25% (>0.197\"); Mild steel 20% (<0.118\"), 25% (0.118-0.237\"), 30% (>0.237\"); Stainless 20% (<0.059\"), 25% (0.059-0.110\"), 30% (0.110-0.157\"), 35% (>0.157\")."
+   },
+   {
+    "label": "Cleveland Steel Tool Catalog 103, Clearance Guide (ironworker tooling)",
+    "url": "https://acatmexicana.com/catalogos/CST/C_CST_General_ACAT.pdf",
+    "summary": "Soft aluminum 10%; stainless 18%; mild steel fixed steps: 1/32\" for 3/16-15/32\", 1/16\" for 1/2-23/32\", 3/32\" for 3/4\"+, 1/8\" for 1\"+ (about 12.5% at most common thicknesses)."
+   },
+   {
+    "label": "Cleveland Steel Tool, Die Clearance & Tonnage Chart (mild steel)",
+    "url": "https://www.clevelandsteeltool.com/wp-content/uploads/2025/04/Die-Clearance-and-Tonnage-Chart-2016.pdf"
+   }
+  ],
+  "review": [
+   "Steel (12/16/20/24/26%): runs about 4-6 points below Mate's mild-steel chart (20/25/30%) and about 1.5-2x CST's ironworker chart (about 12.5%). It falls between the two. Not changed.",
+   "Stainless (20/25/30/35/35%): matches Mate's stainless tiers closely (20-35%). It is well above CST's flat 18%. Not changed.",
+   "Aluminum at 0.5\"+ was 35% in the sheet, more than steel. Both sources put aluminum below steel, so it is now 25%. That still sits 1 point above steel's 24% at 0.5-0.749\"."
+  ]
+ },
+ "tonnageSources": [
+  {
+   "label": "Nick's sheet Q3 (round): shear psi x thk x pi x D / 2000",
+   "url": ""
+  },
+  {
+   "label": "Cleveland Steel Tool Catalog 103, Punching Tonnage Guide (shaped holes use the perimeter)",
+   "url": "https://acatmexicana.com/catalogos/CST/C_CST_General_ACAT.pdf"
+  },
+  {
+   "label": "Mate Technical Solutions Guide (tonnage = perimeter x thickness x shear strength)",
+   "url": "https://www.mate.com/wp-content/uploads/2021/03/LIT00682_TechSolutionsGuide_RevE_LR.pdf"
+  }
+ ]
+}

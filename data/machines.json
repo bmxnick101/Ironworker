@@ -1,0 +1,28 @@
+{
+  "defaultMachineId": "edwards-120t",
+  "warnAtFraction": 0.8,
+  "warnNote": "Rule of thumb: WARN above 80% of rated tons, FAIL above 100%. Mate recommends running at 80% of press capacity because tonnage goes up as tools get dull. Not from Nick's sheet.",
+  "warnSource": "https://www.mate.com/wp-content/uploads/2021/03/LIT00682_TechSolutionsGuide_RevE_LR.pdf",
+  "machines": [
+    {
+      "id": "edwards-120t",
+      "name": "Edwards 120T",
+      "ratedTons": 120,
+      "punchMaxDia": 1.5,
+      "punchMaxThk": 1.0,
+      "punchMaxNote": "1-1/2\" dia. in 1\" A36 (65,000 psi tensile)",
+      "throatDepth": 11,
+      "flatBarShear": "1/2\" x 24\" or 1\" x 12\"",
+      "roundBarShearMax": 1.25,
+      "squareBarShearMax": 1.25,
+      "angleShear": "6\" x 6\" x 1/2\"",
+      "coperNotcher": "3\" x 6\" x 1/2\"",
+      "specNotes": "Rated 120 tons per Nick. A dealer copy of the Edwards sheet (trick-tools 120ton_sell.pdf) lists the coper notcher as 2-1/2\" x 6\" x 1/2\". The Edwards catalog and quick reference list 3\" x 6\" x 1/2\". Check your machine's plate.",
+      "sources": [
+        { "label": "Edwards Mfg. product catalog, 120 Ton page", "url": "https://www.globalindustrial.com/site/images/edwards/catalog.pdf" },
+        { "label": "Edwards 'Choose Your Ironworker' quick reference", "url": "http://www.cpmfab.com/img_new/Edwards/Ironworker_ChooseYourIronworker_QuickReference.pdf" },
+        { "label": "Edwards 120 Ton spec sheet (dealer copy)", "url": "https://www.trick-tools.com/common/documentation/120ton_sell.pdf" }
+      ]
+    }
+  ]
+}
