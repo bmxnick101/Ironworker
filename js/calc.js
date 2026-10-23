@@ -128,6 +128,107 @@ export function parseInches(str) {
   return Number.isFinite(v) && /^\d*\.?\d+$/.test(s) ? v : NaN;
 }
 
+// Nominal sheet gauge, inches. A gauge number is not the same thickness in every metal.
+// Steel: Manufacturers' Standard Gauge. Stainless: US Standard gauge. Aluminum: Brown & Sharpe.
+// 10 ga steel is 0.1345", the value the old thickness list used.
+const GAUGE_IN = {
+  steel: [0.1793, 0.1644, 0.1495, 0.1345, 0.1196, 0.1046, 0.0897, 0.0747, 0.0673, 0.0598, 0.0538, 0.0478, 0.0418, 0.0359, 0.0329, 0.0299, 0.0269, 0.0239],
+  stainless: [0.1875, 0.1719, 0.1563, 0.1406, 0.1250, 0.1094, 0.0938, 0.0781, 0.0703, 0.0625, 0.0563, 0.0500, 0.0438, 0.0375, 0.0344, 0.0313, 0.0281, 0.0250],
+  aluminum: [0.1443, 0.1285, 0.1144, 0.1019, 0.0907, 0.0808, 0.0720, 0.0641, 0.0571, 0.0508, 0.0453, 0.0403, 0.0359, 0.0320, 0.0285, 0.0253, 0.0226, 0.0201],
+};
+const GAUGE_FROM = 7;
+const COMMON_GA = new Set([7, 8, 10, 11, 12, 14, 16, 18, 20]);
+const PLATE = [['1/8', 0.125], ['3/16', 0.1875], ['1/4', 0.25], ['5/16', 0.3125], ['3/8', 0.375], ['1/2', 0.5], ['5/8', 0.625], ['3/4', 0.75], ['1', 1]];
+
+function gaugeRows(materialId) {
+  const inches = GAUGE_IN[materialId] || GAUGE_IN.steel;
+  return inches.map((inches, i) => ({ ga: GAUGE_FROM + i, inches }));
+}
+
+/** Decimal inches for display: 0.1345 -> .1345" , 0.25 -> .25" , 1 -> 1". */
+export function formatInches(n) {
+  if (!Number.isFinite(n)) return '';
+  if (Math.abs(n - Math.round(n)) < 1e-9) return `${Math.round(n)}"`;
+  let s = n.toFixed(4).replace(/0+$/, '').replace(/\.$/, '');
+  if (s.startsWith('0')) s = s.slice(1);
+  return `${s}"`;
+}
+
+/** Common plate fractions plus the gauge chart for this material, thickest first. */
+export function thicknessOptions(materialId = 'steel', { common = false } = {}) {
+  const family = GAUGE_IN[materialId] ? materialId : 'steel';
+  const gauges = gaugeRows(materialId)
+    .filter(r => !common || COMMON_GA.has(r.ga))
+    .map(r => ({ kind: 'gauge', gauge: r.ga, label: `${r.ga} ga`, value: `${r.ga} ga`, inches: r.inches, detail: formatInches(r.inches), family }));
+  const plate = PLATE.map(([frac, inches]) => ({ kind: 'plate', label: `${frac}"`, value: frac, inches, detail: formatInches(inches), family: 'plate' }));
+  const items = [...gauges, ...plate];
+  if (!common) return items.sort((a, b) => b.inches - a.inches || a.label.localeCompare(b.label));
+  // Shop order: the gauges people ask for, then plate. Thickest-first hid 10 ga under the fold.
+  const order = ['10 ga', '11 ga', '12 ga', '14 ga', '16 ga', '18 ga', '20 ga', '7 ga', '8 ga', '1/8"', '3/16"', '1/4"', '5/16"', '3/8"', '1/2"', '5/8"', '3/4"', '1"'];
+  return items.sort((a, b) => order.indexOf(a.label) - order.indexOf(b.label));
+}
+
+/** Suggestions for the thickness field. Blank query returns the common list. */
+export function filterThickness(query, materialId = 'steel') {
+  const q = String(query ?? '').trim().toLowerCase();
+  const compact = q.replace(/["\s]/g, '');
+  const all = thicknessOptions(materialId);
+  if (!compact) return thicknessOptions(materialId, { common: true });
+  if (compact === 'ga' || compact === 'gauge') return all.filter(i => i.kind === 'gauge');
+  const hits = all.filter(item => {
+    const label = item.label.toLowerCase().replace(/["\s]/g, '');
+    const value = item.value.toLowerCase().replace(/\s/g, '');
+    if (label.startsWith(compact) || value.startsWith(compact)) return true;
+    if (item.kind === 'gauge' && (compact === String(item.gauge) || compact === `${item.gauge}ga` || compact === `${item.gauge}gauge`)) return true;
+    const dec = item.inches.toFixed(4);
+    const dot = dec.replace(/^0/, '');
+    return dec.startsWith(q) || dot.startsWith(q) || String(item.inches).startsWith(q) || item.detail.replace(/"/g, '').startsWith(q);
+  });
+  const rank = item => {
+    if (item.kind === 'gauge' && compact === String(item.gauge)) return 0;
+    if (item.value.toLowerCase().replace(/\s/g, '') === compact) return 1;
+    return 2;
+  };
+  return hits.sort((a, b) => rank(a) - rank(b) || b.inches - a.inches);
+}
+
+/** Inches from a fraction, a decimal, or a gauge ("10", "10 ga", "10 gauge").
+ *  A whole number that is on the gauge chart is that gauge, not that many inches:
+ *  this press tops out at 1" plate, and "10" in the shop means 10 gauge. */
+export function parseThickness(str, materialId = 'steel') {
+  const text = String(str ?? '').trim();
+  let m = text.match(/^(\d{1,2})\s*(ga|gauge)$/i);
+  if (!m) m = text.match(/^(\d{1,2})$/);
+  if (m) {
+    const row = gaugeRows(materialId).find(r => r.ga === +m[1]);
+    if (row) return row.inches;
+    if (/ga/i.test(text)) return NaN;
+  }
+  return parseInches(text);
+}
+
+/** Readable line for the current thickness, naming a gauge when the decimal matches one. */
+export function describeThickness(str, materialId = 'steel') {
+  const inches = parseThickness(str, materialId);
+  if (!(inches > 0)) return '';
+  const family = GAUGE_IN[materialId] ? materialId : 'steel';
+  const typed = String(str ?? '').trim().toLowerCase().replace(/"/g, '');
+  const names = [];
+  for (const item of thicknessOptions(materialId)) {
+    if (Math.abs(item.inches - inches) > 0.00015) continue;
+    if (!names.includes(item.label)) names.push(item.label);
+  }
+  names.sort((a, b) => {
+    const am = a.toLowerCase().replace(/"/g, '') === typed;
+    const bm = b.toLowerCase().replace(/"/g, '') === typed;
+    return (bm ? 1 : 0) - (am ? 1 : 0);
+  });
+  const dec = formatInches(inches);
+  const gauge = names.some(n => /ga/.test(n));
+  const head = names.length ? `${names.join(' · ')} · ` : '';
+  return `${head}${dec}${gauge ? ` · ${family} gauge` : ''}`;
+}
+
 /** Station-limit checks against optional machine fields (e.g. Edwards spec sheet). Returns warning strings. */
 export function machineLimitWarnings(machine, { shape, dims, thickness }) {
   const w = [];

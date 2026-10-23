@@ -14,6 +14,15 @@ main{padding:20px;padding-bottom:60px}
 label{display:block;font-weight:600;font-size:15px;color:var(--mut);margin-bottom:14px}
 input,select{display:block;width:100%;margin-top:6px;font:inherit;font-size:22px;min-height:56px;padding:8px 14px;border:2px solid #cfd6de;border-radius:12px;background:#fff;color:var(--ink)}
 input:focus,select:focus{outline:none;border-color:var(--acc)}
+.combo{position:relative;margin-top:6px}
+.combo input{margin-top:0;padding-right:52px}
+.combo-btn{position:absolute;right:6px;top:6px;width:44px;min-height:44px;height:44px;margin:0;padding:0;border:0;border-radius:10px;background:transparent;color:var(--mut);font-size:20px;line-height:1;cursor:pointer}
+.combo-menu{position:absolute;z-index:30;left:0;right:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:#fff;border:2px solid var(--acc);border-radius:12px;box-shadow:0 10px 28px #0003;max-height:min(320px,50vh);overflow:auto;-webkit-overflow-scrolling:touch}
+.combo-menu[hidden]{display:none}
+.combo-menu li{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:48px;padding:8px 12px;border-radius:8px;font-size:18px;font-weight:700;color:var(--ink);cursor:pointer;touch-action:manipulation}
+.combo-menu li:hover,.combo-menu li[aria-selected=true]{background:#fff1e4}
+.combo-menu .dec{font-weight:600;color:var(--mut);font-variant-numeric:tabular-nums}
+.thk-now{display:block;margin-top:4px;min-height:1.2em;font-size:14px;font-weight:700;color:var(--ink)}
 .seg{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
 .seg button{flex:1;font:inherit;font-size:17px;font-weight:600;min-height:52px;padding:6px 10px;border:2px solid #cfd6de;background:#fff;border-radius:12px;color:var(--ink)}
 .seg button.on{background:var(--acc);border-color:var(--acc);color:#fff}

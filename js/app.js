@@ -100,7 +100,81 @@ function renderDims(s) {
   $('#jDims').innerHTML = dimFields[s].map(([k, l, v]) => `<label>${l}<input data-k="${k}" inputmode="decimal" value="${v}" ${k !== 'p' ? 'list="sizeList"' : ''}></label>`).join('');
   $('#jDims').querySelectorAll('input').forEach(i => i.oninput = calcJob);
 }
-['#jThk', '#jMat'].forEach(s => $(s).oninput = calcJob);
+let thkRefresh = () => {};
+function bindThicknessCombo() {
+  const input = $('#jThk'), menu = $('#thkMenu'), btn = $('#thkOpen');
+  if (!input || !menu) return;
+  let items = [], active = -1;
+  const materialId = () => $('#jMat').value || 'steel';
+  const norm = s => String(s ?? '').trim().toLowerCase().replaceAll('"', '');
+  const same = (a, b) => norm(a) === norm(b);
+  function setOpen(on) {
+    menu.hidden = !on;
+    const expanded = on ? 'true' : 'false';
+    input.setAttribute('aria-expanded', expanded);
+    btn?.setAttribute('aria-expanded', expanded);
+  }
+  function render(list, activeIndex, scroll) {
+    items = list;
+    active = activeIndex;
+    menu.innerHTML = list.map((it, i) => `<li role="option" id="thkOpt${i}" data-i="${i}" ${i === active ? 'aria-selected="true"' : ''}><span>${h(it.label)}</span>${it.detail === it.label ? '' : `<span class="dec">${h(it.detail)}</span>`}</li>`).join('');
+    setOpen(list.length > 0);
+    if (active >= 0 && menu.children[active]) {
+      input.setAttribute('aria-activedescendant', menu.children[active].id);
+      if (scroll) menu.children[active].scrollIntoView({ block: 'nearest' });
+    } else input.removeAttribute('aria-activedescendant');
+  }
+  function open(filtering) {
+    const list = filtering ? C.filterThickness(input.value, materialId()) : C.thicknessOptions(materialId(), { common: true });
+    let idx = -1;
+    if (filtering) idx = list.length ? 0 : -1;
+    else {
+      const inches = C.parseThickness(input.value, materialId());
+      idx = list.findIndex(it => same(it.value, input.value) || same(it.label, input.value) || (inches > 0 && Math.abs(it.inches - inches) < 0.00015));
+    }
+    render(list, idx);
+  }
+  function pick(i) {
+    const it = items[i];
+    if (!it) return;
+    input.value = it.value;
+    input.dataset.dirty = '0';
+    setOpen(false);
+    calcJob();
+  }
+  function move(d) {
+    const wasHidden = menu.hidden;
+    if (wasHidden) open(input.dataset.dirty === '1');
+    if (!items.length || (wasHidden && active >= 0)) return;
+    const next = active < 0 ? (d > 0 ? 0 : items.length - 1) : (active + d + items.length) % items.length;
+    render(items, next, true);
+  }
+  input.addEventListener('focus', () => { input.dataset.dirty = '0'; open(false); });
+  input.addEventListener('input', () => { input.dataset.dirty = '1'; open(true); calcJob(); });
+  input.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+    else if (e.key === 'Enter' && !menu.hidden && active >= 0) { e.preventDefault(); pick(active); }
+    else if (e.key === 'Escape') setOpen(false);
+  });
+  input.addEventListener('blur', () => setOpen(false));
+  menu.addEventListener('pointerdown', e => {
+    const li = e.target.closest('[role=option]');
+    if (!li) return;
+    e.preventDefault();
+    pick(+li.dataset.i);
+  });
+  btn?.addEventListener('pointerdown', e => {
+    e.preventDefault();
+    if (!menu.hidden) { setOpen(false); return; }
+    input.dataset.dirty = '0';
+    input.focus();
+    open(false);
+  });
+  thkRefresh = () => { if (!menu.hidden) open(input.dataset.dirty === '1'); };
+}
+bindThicknessCombo();
+$('#jMat').oninput = () => { calcJob(); thkRefresh(); };
 const openState = S.load('openSections', {});
 const details = (key, title, body) => `<details class="card fold" data-key="${key}" ${openState[key] ? 'open' : ''}><summary>${title}</summary>${body}</details>`;
 
@@ -140,7 +214,8 @@ function punchDieBlock(s, dims, thk, mat, list) {
 function calcJob() {
   const s = shape(), dims = {};
   $('#jDims').querySelectorAll('input').forEach(i => dims[i.dataset.k] = C.parseInches(i.value));
-  const thk = C.parseInches($('#jThk').value), mat = $('#jMat').value, m = machine(), out = $('#jResult');
+  const mat = $('#jMat').value, thk = C.parseThickness($('#jThk').value, mat), m = machine(), out = $('#jResult');
+  const thkNow = $('#thkNow'); if (thkNow) thkNow.textContent = C.describeThickness($('#jThk').value, mat);
   if (Object.values(dims).some(v => !(v > 0)) || !(thk > 0)) { out.innerHTML = '<div class="card"><p class="muted">Enter the hole size and material thickness.</p></div>'; return; }
   let t; try { t = C.tonnage({ shape: s, dims, thickness: thk, material: mat }, D.materials); }
   catch (e) { out.innerHTML = `<div class="card"><p class="badge no">${h(e.message)}</p></div>`; return; }

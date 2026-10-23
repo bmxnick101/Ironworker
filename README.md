@@ -1,5 +1,5 @@
 # EMPRO Ironworker (PWA)
-Static, no build step. Serve the folder (`npm run serve`) and open it. Tests: `npm test` (node --test, 24 tests).
+Static, no build step. Serve the folder (`npm run serve`) and open it. Tests: `npm test` (node --test, 27 tests).
 - `js/calc.js`: pure calculation logic (tonnage for round/square/rect/oblong/hex/custom, clearance, die size, stock lookup, machine limits).
 - `js/tooling.js`: pure inventory logic (merge sheet + device edits, validation, CSV/JSON import/export). `js/store.js` = localStorage.
 - `data/materials.json`: shear strengths, clearance table (`steps[].sheet` = Nick's original O3; active = with the aluminum fix), sources.

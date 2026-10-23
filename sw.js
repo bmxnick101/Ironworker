@@ -1,4 +1,4 @@
-const CACHE = 'empro-ironworker-v5';
+const CACHE = 'empro-ironworker-v6';
 // Relative to this script. On Pages that directory is /Ironworker/, not the host root.
 const ASSETS = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/calc.js', 'js/data.js', 'js/tooling.js', 'js/store.js',
   'data/materials.json', 'data/tooling.json', 'data/sizes.json', 'data/machines.json',

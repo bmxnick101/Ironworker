@@ -21,9 +21,9 @@ test('manifest start_url, scope, and icons stay relative', () => {
   assert.deepEqual(manifest.icons.map((icon) => icon.src).filter(rootAbsolute), []);
 });
 
-test('service worker precache list is relative and the cache name is v5', () => {
+test('service worker precache list is relative and the cache name is v6', () => {
   const sw = read('../sw.js');
-  assert.match(sw, /const CACHE = 'empro-ironworker-v5'/);
+  assert.match(sw, /const CACHE = 'empro-ironworker-v6'/);
   const list = sw.match(/const ASSETS = (\[[\s\S]*?\]);/);
   assert.ok(list, 'ASSETS array missing');
   const assets = JSON.parse(list[1].replace(/'/g, '"'));
